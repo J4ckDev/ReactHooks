@@ -1,0 +1,36 @@
+html, body{
+    background-color: #21232A;
+    color: white;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+.button {
+    background-color: transparent;
+    border: solid 2px #60DAF8;
+    border-radius: 0.5rem;
+    color: #60DAF8;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 0.5rem;    
+    transition: all 0.3s;
+}
+
+.button:hover{
+    border-color: #21232A;
+    background-color: #60DAF8;
+    color: #21232A;
+}
+
+.left{
+    margin-right: 0.2rem;
+}
+
+.middle{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.right{
+    margin-left: 0.2rem;
+}
