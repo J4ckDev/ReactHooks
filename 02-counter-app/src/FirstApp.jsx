@@ -28,8 +28,9 @@ const FirstApp = ({ quien, info }) => {
       </p>
       <pre>{JSON.stringify(persona, null, 3)}</pre>
       <h2>
-        {quien} {info}
+        {quien} 
       </h2>
+      <p>{info}</p>
     </>
   );
 };
@@ -45,7 +46,8 @@ FirstApp.propTypes = {
 // un mejor control de las propiedades que necesita el componente
 
 FirstApp.defaultProps = {
-    quien : 'No hay nadie'
+    quien : 'No hay nadie',
+    info : 'No hay info'
 }
 
 export default FirstApp;

@@ -6,5 +6,5 @@ import "./index.css";
 
 const divRoot = document.getElementById("root");
 
-//ReactDOM.render(<FirstApp quien="Soy J4ckDev" info={"y tengo 25 años."} />, divRoot);
-ReactDOM.render(<CounterApp value={100} />, divRoot);
+//ReactDOM.render(<FirstApp quien="Soy J4ckDev" info={"Desarrollador web"} />, divRoot);
+ReactDOM.render(<CounterApp />, divRoot);

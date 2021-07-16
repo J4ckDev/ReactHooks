@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al componente CounterApp Debe mostrar <CounterApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+    0
+  </h2>
+  <button
+    className="button left"
+    onClick={[Function]}
+  >
+    +1
+  </button>
+  <button
+    className="button middle"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    className="button right"
+    onClick={[Function]}
+  >
+    -1
+  </button>
+</Fragment>
+`;

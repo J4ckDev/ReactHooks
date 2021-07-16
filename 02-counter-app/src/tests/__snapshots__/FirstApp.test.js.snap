@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <PrimeraApp /> Debe mostrar <FirstApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola Mundo
+  </h1>
+  <p>
+    React imprime todo lo que sea texto, números y listas, concatenado su contenido; pero en el caso de los booleanos, null y undefined no los muestra y en el caso de los objetos toca hacer un procedimiento adicional para convertirlo a texto y poderlo mostrar.
+  </p>
+  <pre>
+    {
+   "name": "Jonathan",
+   "age": 25
+}
+  </pre>
+  <h2>
+    No hay nadie
+  </h2>
+  <p>
+    No hay info
+  </p>
+</Fragment>
+`;
